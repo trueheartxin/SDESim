@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import ncx2
 import statsmodels.api as sm
-%matplotlib inline
+
 
 # Milstein scheme
 def simulateCIR_Milstein(x0,dt,Nt,NSample):
